@@ -1,6 +1,6 @@
-import React from 'react'
 import CharacterDetails from './components/CharacterDetails'
 import Rick from './components/Rick'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <Route path="/character/:id" element={<CharacterDetails />} />
       </Routes>
     </Router>
+
   )
 }
 

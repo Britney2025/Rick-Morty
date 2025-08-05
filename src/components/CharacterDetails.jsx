@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link, useParams } from 'react-router-dom';
 
 function CharacterDetails() {
     const { id } = useParams();
